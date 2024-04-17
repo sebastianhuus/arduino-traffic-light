@@ -1,6 +1,10 @@
 # Arduino Traffic Light
 
-This project contains the source code for an Arduino-based traffic light system.
+This project contains the source code for an Arduino-based traffic light system. It attempts to simulate a traffic light through this summarized use-case:
+1. User presses button to trigger traffic light.
+2. Traffic light turns yellow, then red, stopping cars. 
+3. Traffic light shows green for pedestrians and beeps while active. Ends cycle with blinking to signal that the light will turn red soon.
+4. Traffic light turns yellow, then red.
 
 ## Setup: Breadboard and Arduino
 ![Arduino project board](image.jpg)
